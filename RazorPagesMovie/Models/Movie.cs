@@ -11,5 +11,14 @@ namespace RazorPagesMovie.Models
         public DateTime ReleaseDate { get; set; }
         public string Genre { get; set; } = string.Empty;
         public decimal Price { get; set; }
+
+       // public DbSet<RazorPagesMovie.Models.Movie>? Movie { get; set; }
+    
+
+
+
+
+
+
     }
 }
