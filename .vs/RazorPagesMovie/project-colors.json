@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ad8bc54c-9fa0-46ff-8958-a463440ab1e2": {
+      "ProjectGuid": "ad8bc54c-9fa0-46ff-8958-a463440ab1e2",
+      "DisplayName": "RazorPagesMovie",
+      "ColorIndex": 0
+    },
+    "9f8dd9a7-d65c-4022-a949-9ddb15d7d2d2": {
+      "ProjectGuid": "9f8dd9a7-d65c-4022-a949-9ddb15d7d2d2",
+      "DisplayName": "Models",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
