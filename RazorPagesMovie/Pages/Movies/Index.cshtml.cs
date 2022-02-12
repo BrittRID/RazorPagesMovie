@@ -16,6 +16,11 @@ namespace RazorPagesMovie.Pages.Movies
 #pragma warning disable CS8604
     public class IndexModel : PageModel
     {
+        //public IActionResult Index()
+      // {
+       //     return View();
+       // }
+
         private readonly RazorPagesMovie.Data.RazorPagesMovieContext _context;
 
         public IndexModel(RazorPagesMovie.Data.RazorPagesMovieContext context)
