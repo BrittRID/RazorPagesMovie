@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4UurlrEcEUL8Gm394eVBjGbXBcTzf1IOMIIgSYKFSPY=",
+  "Hash": "TB4r3XjO048yVUz8wXefKdnrwC5H7PE9hXMtAfjJDF0=",
   "Source": "RazorPagesMovie",
   "BasePath": "_content/RazorPagesMovie",
   "Mode": "Default",
@@ -799,6 +799,40 @@
       "OriginalItemSpec": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RazorPagesMovie.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\css\\Natural.jpg",
+      "SourceId": "RazorPagesMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\",
+      "BasePath": "_content/RazorPagesMovie",
+      "RelativePath": "css/Natural.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Natural.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\css\\R.jpg",
+      "SourceId": "RazorPagesMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\",
+      "BasePath": "_content/RazorPagesMovie",
+      "RelativePath": "css/R.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\R.jpg"
+    },
+    {
       "Identity": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\css\\site.css",
       "SourceId": "RazorPagesMovie",
       "SourceType": "Discovered",
@@ -831,6 +865,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\Images\\OIP.jpg",
+      "SourceId": "RazorPagesMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\",
+      "BasePath": "_content/RazorPagesMovie",
+      "RelativePath": "Images/OIP.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\OIP.jpg"
     },
     {
       "Identity": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\js\\site.js",
