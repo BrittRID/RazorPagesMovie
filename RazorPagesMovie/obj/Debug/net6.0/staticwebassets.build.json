@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BfZwRqJNThz8gkCozEypUqlgKuV0AS+CX0MhzFuomgw=",
+  "Hash": "GroTVcTNnFN34WgDLHkEFkUSnNKe7AgXNJPdy/BkvMk=",
   "Source": "RazorPagesMovie",
   "BasePath": "_content/RazorPagesMovie",
   "Mode": "Default",
@@ -848,6 +848,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\R.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\css\\Rampage.jpg",
+      "SourceId": "RazorPagesMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\",
+      "BasePath": "_content/RazorPagesMovie",
+      "RelativePath": "css/Rampage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Rampage.jpg"
     },
     {
       "Identity": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\wwwroot\\css\\site.css",
