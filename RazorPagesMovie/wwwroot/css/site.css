@@ -22,13 +22,19 @@ body {
 
 .navbar-brand {
     font-size: 20px;
-    word-spacing: 0px;
+    word-spacing: -1px;
 }
 
+.form-group{
+    word-spacing: -1px;
+}
 
+.post{
+    word-spacing: 1px;
+}
 .container {
     /* background-color: yellow;*/
-   /* font-size: 25px;*/
+    /* font-size: 25px;*/
     margin-right: 20px;
     font-size: 15px;
     padding-left: 10px;
@@ -37,3 +43,139 @@ body {
 }
 
 
+/*Edit code below due to errors */
+
+
+
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: arial;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*header*/
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px 30px;
+    background: rgba(17, 21, 49, 0.80);
+}
+
+.nav_icon {
+    font-size: 40px;
+    color: #fff;
+}
+
+.block-row {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: darken;
+    background-color: rgba(48,64,166,0.8);
+    font-size: 20px;
+    color: #fff;
+}
+
+    .block-row h2 {
+        font-size: 60px;
+        font-weight: 700
+    }
+
+.img_trigger {
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100
+}
+
+    .img_trigger ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+        .img_trigger ul li {
+            width: 100px;
+            margin: 20px 0;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+            position: relative;
+        }
+
+            .img_trigger ul li:hover {
+                transform: scale(1.1);
+            }
+
+.main_container {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slide_transform {
+    transition: all 0.5s ease-out;
+}
+
+.footer {
+    padding: 7px 0;
+    text-align: center;
+    color: #fff;
+    background: rgb(29 36 84);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.social_links {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+    .social_links li {
+        display: inline-block;
+        margin: 0 20px;
+        font-size: 24px;
+    }
+
+        .social_links li a i {
+            color: #fff;
+            transition: all 0.3s ease-out;
+        }
+
+        .social_links li a:hover i.fa-facebook {
+            color: #3b5998
+        }
+
+        .social_links li a:hover i.fa-twitter {
+            color: #00acee
+        }
+
+        .social_links li a:hover i.fa-linkedin {
+            color: #0e76a8;
+        }
+
+        .social_links li a:hover i.fa-instagram {
+            color: #3f729b
+        }

@@ -8,36 +8,116 @@
     <h1 class="display-4">Welcome!</h1>
    @* <p><a href="https://docs.microsoft.com/aspnet/core"></a></p>*@
 </div>
-<div id="themeSlider" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#themeSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#themeSlider" data-slide-to="1"></li>
-        <li data-target="#themeSlider" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="item active">
-            <div class="imgOverlay"></div>
-            @*<img style="height:320px;width:100%" src="../Images/4_03_21_2017_08_23_17.jpg" alt="First slide">*@
-            <div class="carousel-caption">
-                <h3>New</h3>
-            </div>
-        </div>
-        <div class="item">
-            <div class="imgOverlay"></div>
-            @*<img style="height:320px;width:100%" src="../Images/3_03_21_2017_08_19_28.jpg" alt="Second slide">*@
-            <div class="carousel-caption">
-                <h3>My Phone</h3>
 
-            </div>
-        </div>
-        <div class="item">
-            <div class="imgOverlay"></div>
-           <div class="item active">
-                <img src="~/css/Rampage.jpg">
-           </div>
-            <div class="carousel-caption">
-                <h3>Latest</h3>
-            </div>
-        </div>
-    </div>
+@*Edit code below due to errors*@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/site.css">
+<link rel="stylesheet" type="text/css" href="css/site.js">
+
+
+</head>
+<body>
+
+@*<header class="header">
+	<div class="container-fluid">
+		<div class="row d-flex align-items-center">
+			<div class="col-auto">
+				<a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+			</div>
+			<div class="col text-right">
+				<a class="nav_icon" id="nav_icon" href="#!">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</header>	*@
+
+<div class="main_container">
+	<div class="slide_transform" id="slide_transform">
+		<div class="block-row d-flex align-items-center" style="background-image: url(images/bg1.jpg); ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<h2>Create a movie database</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="block-row d-flex align-items-center" style="background-image: url(images/bg2.jpg); ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<h2>Click Movie DataBase next to home</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+		<div class="block-row d-flex align-items-center" style="background-image: url(images/bg3.jpg); ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<h2>Enjoy</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="block-row d-flex align-items-center" style="background-image: url(images/bg4.jpg); ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<h2></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
 </div>
+
+<div class="img_trigger">
+	<ul>
+		<li><img src="~/css/1000_F_266718716_NJ9LSBI9LyeUOeF7srLtfS8W5411SWCf.jpg"></li>
+		<li><img src="~/css/Natural.jpg"></li>
+		<li><img src="~/css/R.jpg"></li>
+		<li><img src="~/css/Rampage.jpg"></li>
+	</ul>
+</div>
+			
+<footer class="footer">
+	@*<div class="container">
+		<ul class="social_links">
+			<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		</ul>
+	</div>*@
+</footer>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
