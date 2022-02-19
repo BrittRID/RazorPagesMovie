@@ -13,6 +13,27 @@ html {
   min-height: 100%;
 }
 
+
+/*May not work*/
 body {
   margin-bottom: 60px;
 }
+
+
+.navbar-brand {
+    font-size: 20px;
+    word-spacing: 0px;
+}
+
+
+.container {
+    /* background-color: yellow;*/
+   /* font-size: 25px;*/
+    margin-right: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+    float: inherit;
+    word-spacing: 50px;
+}
+
+

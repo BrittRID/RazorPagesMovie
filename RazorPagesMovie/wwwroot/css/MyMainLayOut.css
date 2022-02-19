@@ -1,0 +1,21 @@
+﻿/*[1. IMPORT SOURCE]*/
+@import url(font-awesome.css);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+
+.border-top footer text-muted {
+    font-size: 25px;
+    padding-left: 40px;
+    float: left;
+    word-spacing: 20px;
+}
+
+.container {
+    background-color: yellow;
+    font-size: 20px;
+}
+
+
+footer {
+    font-size: .75rem;
+    margin-right: 28px; 
+}
