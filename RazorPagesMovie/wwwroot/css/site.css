@@ -26,31 +26,31 @@ body {
 }
 
 .form-group{
-    word-spacing: -1px;
+    word-spacing: 19px;
 }
 
-.post{
-    word-spacing: 1px;
-}
+
 .container {
-    /* background-color: yellow;*/
-    /* font-size: 25px;*/
+   
     margin-right: 20px;
     font-size: 15px;
     padding-left: 10px;
     float: inherit;
-    word-spacing: 50px;
+    word-spacing: 10px;
 }
+
+span.small {
+    font-size: smaller;
+}
+
+
+
+
 
 
 /*Edit code below due to errors */
 
-
-
-
-
-
-*, *::before, *::after {
+ *::before, *::after {
     box-sizing: border-box;
 }
 
