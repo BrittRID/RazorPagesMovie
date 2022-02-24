@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BpmUjmmNwPgANrRhXoI2eQ28TLr1dGt3Uerc9Cfr9Vy7sGH1ALBVrwNbzEQEkzNXAS45HBJGVsdEl8PN9zmgUg==",
+  "dgSpecHash": "j1W2nUN07G3U0wwGaVKyfZOqddQq/8jAtTOZvV9/2JtrnTjzAuviFh2pQz74xG7lFsKv6DXbypWcZWQOJ4VLrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\britt\\Desktop\\Repos\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
   "expectedPackageFiles": [
@@ -53,7 +53,9 @@
     "C:\\Users\\britt\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.2\\microsoft.entityframeworkcore.tools.6.0.2.nupkg.sha512",
     "C:\\Users\\britt\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\britt\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\britt\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\britt\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\britt\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\6.0.0\\microsoft.extensions.configuration.commandline.6.0.0.nupkg.sha512",
     "C:\\Users\\britt\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\britt\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\britt\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
