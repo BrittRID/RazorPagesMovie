@@ -40,9 +40,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.16.1, )"
+            },
             "Antlr": {
               "target": "Package",
               "version": "[3.5.0.2, )"
+            },
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.24.0, )"
+            },
+            "EO.WebBrowser": {
+              "target": "Package",
+              "version": "[22.0.83, )"
             },
             "Microsoft.AspNet.Identity.Core": {
               "target": "Package",
@@ -54,11 +66,11 @@
             },
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
-              "version": "[5.2.7, )"
+              "version": "[5.2.8, )"
             },
             "Microsoft.AspNet.Razor": {
               "target": "Package",
-              "version": "[3.2.7, )"
+              "version": "[3.2.8, )"
             },
             "Microsoft.AspNet.Web.Optimization": {
               "target": "Package",
@@ -66,7 +78,7 @@
             },
             "Microsoft.AspNet.WebPages": {
               "target": "Package",
-              "version": "[3.2.7, )"
+              "version": "[3.2.8, )"
             },
             "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
               "target": "Package",
@@ -76,17 +88,17 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.Extensions.Configuration.CommandLine": {
               "target": "Package",
@@ -96,51 +108,51 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[4.1.0, )"
             },
             "Microsoft.Owin": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.2.1, )"
             },
             "Microsoft.Owin.Host.SystemWeb": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.2.1, )"
             },
             "Microsoft.Owin.Security": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.2.1, )"
             },
             "Microsoft.Owin.Security.Cookies": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.2.1, )"
             },
             "Microsoft.Owin.Security.Facebook": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.2.1, )"
             },
             "Microsoft.Owin.Security.Google": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.2.1, )"
             },
             "Microsoft.Owin.Security.MicrosoftAccount": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.2.1, )"
             },
             "Microsoft.Owin.Security.OAuth": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.2.1, )"
             },
             "Microsoft.Owin.Security.Twitter": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.2.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.3, )"
             },
             "Microsoft.Web.Infrastructure": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[2.0.0, )"
             },
             "Microsoft.jQuery.Unobtrusive.Validation": {
               "target": "Package",
@@ -150,9 +162,17 @@
               "target": "Package",
               "version": "[2.8.3, )"
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.28, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.4, )"
             },
             "Owin": {
               "target": "Package",
@@ -165,6 +185,14 @@
             "PagedList.Mvc": {
               "target": "Package",
               "version": "[4.5.0, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[107.3.0, )"
             },
             "bootstrap": {
               "target": "Package",
@@ -197,7 +225,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
