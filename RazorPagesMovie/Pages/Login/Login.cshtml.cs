@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 
 namespace RazorPagesMovie.Pages.Login
 {
@@ -15,10 +16,17 @@ namespace RazorPagesMovie.Pages.Login
 
         }
 
-        public void OnPost()
+        public IActionResult OnPost()
         {
+            if (ModelState.IsValid == false)
+            {
+                return Page();
+            }
 
-        }
+            return RedirectToPage("/Index");
+         }
+
+        
 
     }
         public class Credential

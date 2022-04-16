@@ -10,40 +10,19 @@
         "dependencies": {
           "AngleSharp": "0.16.1",
           "Azure.Core": "1.24.0",
-          "EO.WebBrowser": "22.0.83",
-          "Microsoft.AspNet.Identity.Core": "2.2.3",
-          "Microsoft.AspNet.Identity.Owin": "2.2.3",
           "Microsoft.AspNet.Mvc": "5.2.8",
-          "Microsoft.AspNet.Razor": "3.2.8",
-          "Microsoft.AspNet.Web.Optimization": "1.1.3",
-          "Microsoft.AspNet.WebPages": "3.2.8",
-          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "3.6.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.4",
           "Microsoft.Extensions.Configuration.CommandLine": "6.0.0",
           "Microsoft.Net.Compilers": "4.1.0",
-          "Microsoft.Owin": "4.2.1",
-          "Microsoft.Owin.Host.SystemWeb": "4.2.1",
-          "Microsoft.Owin.Security": "4.2.1",
-          "Microsoft.Owin.Security.Cookies": "4.2.1",
-          "Microsoft.Owin.Security.Facebook": "4.2.1",
-          "Microsoft.Owin.Security.Google": "4.2.1",
-          "Microsoft.Owin.Security.MicrosoftAccount": "4.2.1",
-          "Microsoft.Owin.Security.OAuth": "4.2.1",
-          "Microsoft.Owin.Security.Twitter": "4.2.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.3",
-          "Microsoft.Web.Infrastructure": "2.0.0",
           "Microsoft.jQuery.Unobtrusive.Validation": "3.2.12",
           "Modernizr": "2.8.3",
           "MySql.Data": "8.0.28",
           "Newtonsoft.Json": "13.0.1",
           "Ninject": "3.3.4",
-          "Owin": "1.0.0",
-          "PagedList": "1.17.0",
-          "PagedList.Mvc": "4.5.0",
           "Portable.BouncyCastle": "1.9.0",
-          "RestSharp": "107.3.0",
           "bootstrap": "5.1.3",
           "jQuery": "3.6.0",
           "jQuery.Validation": "1.19.3"
@@ -61,14 +40,6 @@
           "lib/netstandard2.0/AngleSharp.dll": {
             "assemblyVersion": "0.16.1.0",
             "fileVersion": "0.16.1.0"
-          }
-        }
-      },
-      "Antlr/3.4.1.9004": {
-        "runtime": {
-          "lib/Antlr3.Runtime.dll": {
-            "assemblyVersion": "3.4.1.9004",
-            "fileVersion": "3.4.1.9004"
           }
         }
       },
@@ -91,22 +62,6 @@
       },
       "bootstrap/5.1.3": {},
       "BouncyCastle.NetCore/1.8.5": {},
-      "EO.WebBrowser/22.0.83": {
-        "runtime": {
-          "lib/EO.Base.dll": {
-            "assemblyVersion": "22.0.83.0",
-            "fileVersion": "22.0.83.0"
-          },
-          "lib/EO.WebBrowser.dll": {
-            "assemblyVersion": "22.0.83.0",
-            "fileVersion": "22.0.83.0"
-          },
-          "lib/EO.WebEngine.dll": {
-            "assemblyVersion": "22.0.83.0",
-            "fileVersion": "22.0.83.0"
-          }
-        }
-      },
       "Google.Protobuf/3.14.0": {
         "dependencies": {
           "System.Memory": "4.5.4",
@@ -193,28 +148,6 @@
         }
       },
       "MessagePackAnalyzer/2.1.152": {},
-      "Microsoft.AspNet.Identity.Core/2.2.3": {
-        "runtime": {
-          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.2.3.11125"
-          }
-        }
-      },
-      "Microsoft.AspNet.Identity.Owin/2.2.3": {
-        "dependencies": {
-          "Microsoft.AspNet.Identity.Core": "2.2.3",
-          "Microsoft.Owin.Security": "4.2.1",
-          "Microsoft.Owin.Security.Cookies": "4.2.1",
-          "Microsoft.Owin.Security.OAuth": "4.2.1"
-        },
-        "runtime": {
-          "lib/net45/Microsoft.AspNet.Identity.Owin.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.2.3.11125"
-          }
-        }
-      },
       "Microsoft.AspNet.Mvc/5.2.8": {
         "dependencies": {
           "Microsoft.AspNet.Razor": "3.2.8",
@@ -235,22 +168,10 @@
           }
         }
       },
-      "Microsoft.AspNet.Web.Optimization/1.1.3": {
-        "dependencies": {
-          "Microsoft.Web.Infrastructure": "2.0.0",
-          "WebGrease": "1.5.2"
-        },
-        "runtime": {
-          "lib/net40/System.Web.Optimization.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.40211.0"
-          }
-        }
-      },
       "Microsoft.AspNet.WebPages/3.2.8": {
         "dependencies": {
           "Microsoft.AspNet.Razor": "3.2.8",
-          "Microsoft.Web.Infrastructure": "2.0.0"
+          "Microsoft.Web.Infrastructure": "1.0.0"
         },
         "runtime": {
           "lib/net45/System.Web.Helpers.dll": {
@@ -996,14 +917,6 @@
           }
         }
       },
-      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/3.6.0": {
-        "runtime": {
-          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
-            "assemblyVersion": "3.6.0.0",
-            "fileVersion": "3.6.10708.0"
-          }
-        }
-      },
       "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Data.SqlClient/2.1.4": {
         "dependencies": {
@@ -1306,78 +1219,6 @@
       },
       "Microsoft.NETCore.Platforms/5.0.0": {},
       "Microsoft.NETCore.Targets/1.1.3": {},
-      "Microsoft.Owin/4.2.1": {
-        "runtime": {
-          "lib/net45/Microsoft.Owin.dll": {
-            "assemblyVersion": "4.2.1.0",
-            "fileVersion": "4.200.122.20502"
-          }
-        }
-      },
-      "Microsoft.Owin.Host.SystemWeb/4.2.1": {
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {
-            "assemblyVersion": "4.2.1.0",
-            "fileVersion": "4.200.122.20502"
-          }
-        }
-      },
-      "Microsoft.Owin.Security/4.2.1": {
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Security.dll": {
-            "assemblyVersion": "4.2.1.0",
-            "fileVersion": "4.200.122.20502"
-          }
-        }
-      },
-      "Microsoft.Owin.Security.Cookies/4.2.1": {
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Security.Cookies.dll": {
-            "assemblyVersion": "4.2.1.0",
-            "fileVersion": "4.200.122.20502"
-          }
-        }
-      },
-      "Microsoft.Owin.Security.Facebook/4.2.1": {
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Security.Facebook.dll": {
-            "assemblyVersion": "4.2.1.0",
-            "fileVersion": "4.200.122.20502"
-          }
-        }
-      },
-      "Microsoft.Owin.Security.Google/4.2.1": {
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Security.Google.dll": {
-            "assemblyVersion": "4.2.1.0",
-            "fileVersion": "4.200.122.20502"
-          }
-        }
-      },
-      "Microsoft.Owin.Security.MicrosoftAccount/4.2.1": {
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Security.MicrosoftAccount.dll": {
-            "assemblyVersion": "4.2.1.0",
-            "fileVersion": "4.200.122.20502"
-          }
-        }
-      },
-      "Microsoft.Owin.Security.OAuth/4.2.1": {
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {
-            "assemblyVersion": "4.2.1.0",
-            "fileVersion": "4.200.122.20502"
-          }
-        }
-      },
-      "Microsoft.Owin.Security.Twitter/4.2.1": {
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Security.Twitter.dll": {
-            "assemblyVersion": "4.2.1.0",
-            "fileVersion": "4.200.122.20502"
-          }
-        }
-      },
       "Microsoft.VisualStudio.Debugger.Contracts/17.2.0": {
         "dependencies": {
           "MessagePack": "2.1.152",
@@ -1503,11 +1344,11 @@
           }
         }
       },
-      "Microsoft.Web.Infrastructure/2.0.0": {
+      "Microsoft.Web.Infrastructure/1.0.0": {
         "runtime": {
           "lib/net40/Microsoft.Web.Infrastructure.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.34876.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
           }
         }
       },
@@ -1738,46 +1579,11 @@
           }
         }
       },
-      "Owin/1.0.0": {
-        "runtime": {
-          "lib/net40/Owin.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "PagedList/1.17.0": {
-        "runtime": {
-          "lib/net40/PagedList.dll": {
-            "assemblyVersion": "1.17.0.0",
-            "fileVersion": "1.17.0.0"
-          }
-        }
-      },
-      "PagedList.Mvc/4.5.0": {
-        "dependencies": {
-          "PagedList": "1.17.0"
-        },
-        "runtime": {
-          "lib/net40/PagedList.Mvc.dll": {
-            "assemblyVersion": "4.5.0.0",
-            "fileVersion": "4.5.0.0"
-          }
-        }
-      },
       "Portable.BouncyCastle/1.9.0": {
         "runtime": {
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
             "assemblyVersion": "1.9.0.0",
             "fileVersion": "1.9.0.1"
-          }
-        }
-      },
-      "RestSharp/107.3.0": {
-        "runtime": {
-          "lib/net6.0/RestSharp.dll": {
-            "assemblyVersion": "107.3.0.0",
-            "fileVersion": "107.3.0.0"
           }
         }
       },
@@ -2620,18 +2426,6 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
-      },
-      "WebGrease/1.5.2": {
-        "dependencies": {
-          "Antlr": "3.4.1.9004",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "runtime": {
-          "lib/WebGrease.dll": {
-            "assemblyVersion": "1.5.2.14234",
-            "fileVersion": "1.5.2.14234"
-          }
-        }
       }
     }
   },
@@ -2647,13 +2441,6 @@
       "sha512": "sha512-1k7Vbfmr5IUsGaR0QJwTe8XF9zacFUIoWxMgI4X/ipiyKxCWZJZoaG96fNEugL90iubvboRvE1IxuBPibET/Rg==",
       "path": "anglesharp/0.16.1",
       "hashPath": "anglesharp.0.16.1.nupkg.sha512"
-    },
-    "Antlr/3.4.1.9004": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-c1S+HBE+KYA5EBxtn25LEK02hHPH/tDQ6RviUTTCJpZIPoputtn8ArsQJy9lVJWZOnw37ufByO2Fmf1M8wpr8Q==",
-      "path": "antlr/3.4.1.9004",
-      "hashPath": "antlr.3.4.1.9004.nupkg.sha512"
     },
     "Azure.Core/1.24.0": {
       "type": "package",
@@ -2675,13 +2462,6 @@
       "sha512": "sha512-6uxsQw2UXrt82VQAWC2td3oBSJjUZ3P4u4DliagB8wf67KsU53V8sW9xwdF+IwZOOZFR0TCZuv/YKZ2BlrfAag==",
       "path": "bouncycastle.netcore/1.8.5",
       "hashPath": "bouncycastle.netcore.1.8.5.nupkg.sha512"
-    },
-    "EO.WebBrowser/22.0.83": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fEKsXM/CH/0FgFWgIKnvOP/s/4C3Hi0ulXVnxkvkRkV+3UCri8TN5n73a3lLzIszM/kDodyRTQh2RDib6yiL9w==",
-      "path": "eo.webbrowser/22.0.83",
-      "hashPath": "eo.webbrowser.22.0.83.nupkg.sha512"
     },
     "Google.Protobuf/3.14.0": {
       "type": "package",
@@ -2753,20 +2533,6 @@
       "path": "messagepackanalyzer/2.1.152",
       "hashPath": "messagepackanalyzer.2.1.152.nupkg.sha512"
     },
-    "Microsoft.AspNet.Identity.Core/2.2.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Mv5FpoaxspE8hlWLE4r1IdZtovg/OyFgVRhxQbx47J4sqdLImN1hnM1lnwCj+/wLmqtqFk/RYMoZ5GAcwm/00g==",
-      "path": "microsoft.aspnet.identity.core/2.2.3",
-      "hashPath": "microsoft.aspnet.identity.core.2.2.3.nupkg.sha512"
-    },
-    "Microsoft.AspNet.Identity.Owin/2.2.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-gNr7dQGE23hAtWmSZVmKPJ+DKBw/obh68Ub7M5cCUiRNAqg6+6Jb3T7en4Fuw8R/8H5/sIsecrfT3MbK2/FzEg==",
-      "path": "microsoft.aspnet.identity.owin/2.2.3",
-      "hashPath": "microsoft.aspnet.identity.owin.2.2.3.nupkg.sha512"
-    },
     "Microsoft.AspNet.Mvc/5.2.8": {
       "type": "package",
       "serviceable": true,
@@ -2780,13 +2546,6 @@
       "sha512": "sha512-kbWyeKmtRKhaAdutZdTwy60C2YoMw6JykV7qL+idvAo19VvcOzBZyiBFGQnmSbzOf/qoznvrWjPJi6+oOsS0Vw==",
       "path": "microsoft.aspnet.razor/3.2.8",
       "hashPath": "microsoft.aspnet.razor.3.2.8.nupkg.sha512"
-    },
-    "Microsoft.AspNet.Web.Optimization/1.1.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TWKKpTWEdB8jXp2Vl2TXNKW30GBQg6nnh0y8iZWmGY5c1XY4f649vfDslNHsCsvk9JZxc1Rkm/UGDdfq4gjWRQ==",
-      "path": "microsoft.aspnet.web.optimization/1.1.3",
-      "hashPath": "microsoft.aspnet.web.optimization.1.1.3.nupkg.sha512"
     },
     "Microsoft.AspNet.WebPages/3.2.8": {
       "type": "package",
@@ -2934,13 +2693,6 @@
       "sha512": "sha512-0LYNKESZPK4AQmAXwn8l2e8UF/rYpT0pvceEhiTVjurjQ9Y7pGdUZ5E30r8knxYtT5/9ZESR7wKf/AU00r95Mw==",
       "path": "microsoft.codeanalysis.workspaces.msbuild/4.0.0",
       "hashPath": "microsoft.codeanalysis.workspaces.msbuild.4.0.0.nupkg.sha512"
-    },
-    "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/3.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Wxo1vjgqJDawdtSBYegfe7fqUfdKn5vMtAMgHHxjV5rW9rSyQZMQ5t0YTCxyQ/IUyAOoUkrHMVXNLCdqAtH72w==",
-      "path": "microsoft.codedom.providers.dotnetcompilerplatform/3.6.0",
-      "hashPath": "microsoft.codedom.providers.dotnetcompilerplatform.3.6.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -3180,69 +2932,6 @@
       "path": "microsoft.netcore.targets/1.1.3",
       "hashPath": "microsoft.netcore.targets.1.1.3.nupkg.sha512"
     },
-    "Microsoft.Owin/4.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/iYirTV0KS5DqiKgFvxqGR0fOtboceDX7NxVZCYyiuUVz55U1Z3BZRUd2h+35U/8kgFETa6HulCx1hj4ej9heg==",
-      "path": "microsoft.owin/4.2.1",
-      "hashPath": "microsoft.owin.4.2.1.nupkg.sha512"
-    },
-    "Microsoft.Owin.Host.SystemWeb/4.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-e79J2Z6/fTYTfZlve99pMW9rV+W0hg8hroCDNY6IOa6A3RXEw0pqI66sBG4PNpz5T9IH4JIQk2WYHuvLb9e+UQ==",
-      "path": "microsoft.owin.host.systemweb/4.2.1",
-      "hashPath": "microsoft.owin.host.systemweb.4.2.1.nupkg.sha512"
-    },
-    "Microsoft.Owin.Security/4.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2/wgGuA6M9zdqotcW3MWNY+A1KrQb+CWLZKZHP7AZavMS6Ies0iDbdo+wwDGHgmP98LPAqiIdgiIEf4NwH8vDw==",
-      "path": "microsoft.owin.security/4.2.1",
-      "hashPath": "microsoft.owin.security.4.2.1.nupkg.sha512"
-    },
-    "Microsoft.Owin.Security.Cookies/4.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-CvgZczxxALM4RinNcpnrAiMN0oPQA6ciX7wOl3t6C8Q3W2os0DRriC1qWgenVfOWaJND05uaHKGw5o9RkT1TvA==",
-      "path": "microsoft.owin.security.cookies/4.2.1",
-      "hashPath": "microsoft.owin.security.cookies.4.2.1.nupkg.sha512"
-    },
-    "Microsoft.Owin.Security.Facebook/4.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-PqDIcVHKRaxWm+Mc8jC1ZhUlj3hUryS8ncGCSPMM+lt6SoU3xKkDqH4iOg7nz8bRVD5NSoHQvCAAAptegasUew==",
-      "path": "microsoft.owin.security.facebook/4.2.1",
-      "hashPath": "microsoft.owin.security.facebook.4.2.1.nupkg.sha512"
-    },
-    "Microsoft.Owin.Security.Google/4.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OFEtGAyvJEBJQxQEOuz6djEbzxKe/tRtLwp0iV8tSR3lZ+w26J3YUN7onHV+1PVh2E5dCPEi6dkc/OS8GTR5ug==",
-      "path": "microsoft.owin.security.google/4.2.1",
-      "hashPath": "microsoft.owin.security.google.4.2.1.nupkg.sha512"
-    },
-    "Microsoft.Owin.Security.MicrosoftAccount/4.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-B2i+BvgYWjkAQxzb+TCFkDcP+oyYMpBfotNKX0hPqZptHfX9eU1M8ZJOoTzgUK36xEanjR4n5BPhJoIOReXqpQ==",
-      "path": "microsoft.owin.security.microsoftaccount/4.2.1",
-      "hashPath": "microsoft.owin.security.microsoftaccount.4.2.1.nupkg.sha512"
-    },
-    "Microsoft.Owin.Security.OAuth/4.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-l5IqPmRGI6pyO/+6o6RiFj8Lexa6P+y2TTp/8lBzGZC8yjQa0ScQEk2bUKoMt0kIcviW4RMg0t1DuDkVGkuAdA==",
-      "path": "microsoft.owin.security.oauth/4.2.1",
-      "hashPath": "microsoft.owin.security.oauth.4.2.1.nupkg.sha512"
-    },
-    "Microsoft.Owin.Security.Twitter/4.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oWkugJg3k5667u9Xhq8i10KRH1rB5QeSPmjq3s0Wjyu9hJKBkcHnfOMNAwkWqEpFlS5qD5eimOWcIG0V0iyYsg==",
-      "path": "microsoft.owin.security.twitter/4.2.1",
-      "hashPath": "microsoft.owin.security.twitter.4.2.1.nupkg.sha512"
-    },
     "Microsoft.VisualStudio.Debugger.Contracts/17.2.0": {
       "type": "package",
       "serviceable": true,
@@ -3299,12 +2988,12 @@
       "path": "microsoft.visualstudio.web.codegenerators.mvc/6.0.3",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.6.0.3.nupkg.sha512"
     },
-    "Microsoft.Web.Infrastructure/2.0.0": {
+    "Microsoft.Web.Infrastructure/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NA6F00drSYd4HZk7QcyMRz1EEdZQQpcdnt6DfNiurNcUNsmmRDpz9db2Bc3L3Lgo455BOSwNDuNjbhDLltKGKQ==",
-      "path": "microsoft.web.infrastructure/2.0.0",
-      "hashPath": "microsoft.web.infrastructure.2.0.0.nupkg.sha512"
+      "sha512": "sha512-FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
@@ -3425,40 +3114,12 @@
       "path": "nuget.versioning/5.11.0",
       "hashPath": "nuget.versioning.5.11.0.nupkg.sha512"
     },
-    "Owin/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
-      "path": "owin/1.0.0",
-      "hashPath": "owin.1.0.0.nupkg.sha512"
-    },
-    "PagedList/1.17.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Ou6F3WKXh49hOo0TxWM+SkIGuKllYPuPPvnSYOlQ1sTrtuEyuDUhYbSJd5Sdb06i/sWUJZTjiUecEs3Ht/Hx3g==",
-      "path": "pagedlist/1.17.0",
-      "hashPath": "pagedlist.1.17.0.nupkg.sha512"
-    },
-    "PagedList.Mvc/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-D0M4qW2g4a9cwG8ozIKUnJheCrm5GpFTceqUl63AXWaAVnTgk+TysZYUOGMsBRuzid8aF+/E8b0bXM6+90jiEw==",
-      "path": "pagedlist.mvc/4.5.0",
-      "hashPath": "pagedlist.mvc.4.5.0.nupkg.sha512"
-    },
     "Portable.BouncyCastle/1.9.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
       "path": "portable.bouncycastle/1.9.0",
       "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
-    },
-    "RestSharp/107.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qu+A+VAnVLX3OeWVNm11UJz0aVErqSfYqIiOUbJM9x98uLymCOoL/oXRAjMb6XHra27WXxHmzy9EKEOKXWR6Pw==",
-      "path": "restsharp/107.3.0",
-      "hashPath": "restsharp.107.3.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -4145,13 +3806,6 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
-    },
-    "WebGrease/1.5.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VoyDSOOugLx3q5IyOgEcjeYZQOqV9VWZQT57UtN4szlYhAmOcEjVfKWXbtRqBuX43pgyL9E7nMSIPoryC8Cu1Q==",
-      "path": "webgrease/1.5.2",
-      "hashPath": "webgrease.1.5.2.nupkg.sha512"
     }
   }
 }
