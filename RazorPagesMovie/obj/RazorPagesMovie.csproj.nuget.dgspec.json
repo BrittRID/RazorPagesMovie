@@ -44,10 +44,6 @@
               "target": "Package",
               "version": "[0.16.1, )"
             },
-            "Antlr": {
-              "target": "Package",
-              "version": "[3.5.0.2, )"
-            },
             "Azure.Core": {
               "target": "Package",
               "version": "[1.24.0, )"
@@ -55,14 +51,6 @@
             "EO.WebBrowser": {
               "target": "Package",
               "version": "[22.0.83, )"
-            },
-            "Microsoft.AspNet.Identity.Core": {
-              "target": "Package",
-              "version": "[2.2.3, )"
-            },
-            "Microsoft.AspNet.Identity.Owin": {
-              "target": "Package",
-              "version": "[2.2.3, )"
             },
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
@@ -110,49 +98,9 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
-            "Microsoft.Owin": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "Microsoft.Owin.Host.SystemWeb": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "Microsoft.Owin.Security": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "Microsoft.Owin.Security.Cookies": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "Microsoft.Owin.Security.Facebook": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "Microsoft.Owin.Security.Google": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "Microsoft.Owin.Security.MicrosoftAccount": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "Microsoft.Owin.Security.OAuth": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "Microsoft.Owin.Security.Twitter": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.3, )"
-            },
-            "Microsoft.Web.Infrastructure": {
-              "target": "Package",
-              "version": "[2.0.0, )"
             },
             "Microsoft.jQuery.Unobtrusive.Validation": {
               "target": "Package",
@@ -174,25 +122,9 @@
               "target": "Package",
               "version": "[3.3.4, )"
             },
-            "Owin": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "PagedList": {
-              "target": "Package",
-              "version": "[1.17.0, )"
-            },
-            "PagedList.Mvc": {
-              "target": "Package",
-              "version": "[4.5.0, )"
-            },
             "Portable.BouncyCastle": {
               "target": "Package",
               "version": "[1.9.0, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[107.3.0, )"
             },
             "bootstrap": {
               "target": "Package",

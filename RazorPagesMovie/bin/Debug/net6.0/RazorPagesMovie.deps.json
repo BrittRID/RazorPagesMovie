@@ -9,7 +9,6 @@
       "RazorPagesMovie/1.0.0": {
         "dependencies": {
           "AngleSharp": "0.16.1",
-          "Antlr": "3.5.0.2",
           "Azure.Core": "1.24.0",
           "EO.WebBrowser": "22.0.83",
           "Microsoft.AspNet.Identity.Core": "2.2.3",
@@ -65,11 +64,11 @@
           }
         }
       },
-      "Antlr/3.5.0.2": {
+      "Antlr/3.4.1.9004": {
         "runtime": {
           "lib/Antlr3.Runtime.dll": {
-            "assemblyVersion": "3.5.0.2",
-            "fileVersion": "3.5.0.2"
+            "assemblyVersion": "3.4.1.9004",
+            "fileVersion": "3.4.1.9004"
           }
         }
       },
@@ -2624,7 +2623,7 @@
       },
       "WebGrease/1.5.2": {
         "dependencies": {
-          "Antlr": "3.5.0.2",
+          "Antlr": "3.4.1.9004",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
@@ -2649,12 +2648,12 @@
       "path": "anglesharp/0.16.1",
       "hashPath": "anglesharp.0.16.1.nupkg.sha512"
     },
-    "Antlr/3.5.0.2": {
+    "Antlr/3.4.1.9004": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CSfrVuDVMx3OrQhT84zed+tOdM1clljyRLWWlQM22fJsmG836RVDGQlE6tzysXh8X8p9UjkHbLr6OqEIVhtdEA==",
-      "path": "antlr/3.5.0.2",
-      "hashPath": "antlr.3.5.0.2.nupkg.sha512"
+      "sha512": "sha512-c1S+HBE+KYA5EBxtn25LEK02hHPH/tDQ6RviUTTCJpZIPoputtn8ArsQJy9lVJWZOnw37ufByO2Fmf1M8wpr8Q==",
+      "path": "antlr/3.4.1.9004",
+      "hashPath": "antlr.3.4.1.9004.nupkg.sha512"
     },
     "Azure.Core/1.24.0": {
       "type": "package",
